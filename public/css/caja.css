@@ -1,0 +1,22 @@
+.bg-pink {
+  background-color: #ff689d !important;
+}
+.btn-pink {
+  color: #212529;
+  background-color: #ff99cc;
+ 
+}
+
+.btn-pink:hover {  
+  background-color: #ff66cc;  
+}
+
+.btn-sky {
+  color: #212529;
+  background-color: #66ffff;
+ 
+}
+
+.btn-sky:hover {  
+  background-color: #66ccff;  
+}

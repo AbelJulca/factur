@@ -1,0 +1,49 @@
+
+.text-normal {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  outline: none; 
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+}
+
+.mayus {
+    text-transform: uppercase;
+}
+.form-control-mensaje{
+    display:block;
+    width:100%;
+    padding:.375rem .75rem;
+    font-size:1rem;
+    line-height:1.5;
+    color:#495057;
+    background-color:#fff;
+    background-clip:padding-box;
+    border:1px solid #fff;
+    border-radius:.25rem;
+}
+
+.view-2 {
+  display: none !important;
+}
+
+@media screen and (max-device-width:640px), screen and (max-width:640px) {
+  .view-1 {
+    display: none !important;
+  }
+  .view-2 {
+    display: block !important;   
+  }
+  .view-font{
+    font-size: 12px;
+  }
+
+  .h6{
+    font-size: 9px;
+  }
+}

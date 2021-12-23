@@ -1,0 +1,77 @@
+/*table.dataTable thead{
+    background-color: rgb(74,190,123);
+    color: azure;
+}
+.page-item.active .page-link{
+    background-color: rgb(74,190,123);
+    color: azure;
+}
+
+.page-link{
+    color: black;
+}*/
+
+table.dataTable {
+    font-size: 10pt;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #80bdff;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #80bdff;
+}
+
+.codilans-scroll{   
+height: 500px;
+width: 100%;
+border: 1px solid #ddd;
+overflow-y: scroll;
+}
+
+.codilans-scroll-1{   
+height: 400px;
+width: 100%;
+border: 1px solid #ddd;
+overflow-y: scroll;
+}
+.codilans-scroll-2{   
+height: 300px;
+width: 100%;
+border: 1px solid #ddd;
+overflow-y: scroll;
+}
+
+.codilans-scroll-3{   
+height: 400px;
+width: 100%;
+border: 1px solid #ddd;
+overflow-y: scroll;
+}
+
+.codilans-scroll-2::-webkit-scrollbar{
+  width: 8px;
+  background: #EFEFEF;
+}
+
+.codilans-scroll-2::-webkit-scrollbar-thumb{
+  background:  #007bff;
+  border-radius: 5px;
+}
+.text-normal {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  outline: none; 
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+}

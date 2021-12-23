@@ -1,0 +1,45 @@
+/*.content{
+    margin: 8px;
+    background-color: #fff;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0,0,0, .05);
+}*/
+
+.img-codilands{
+    width: 350px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-text{
+    font-style: normal;
+    font-weight: 600 !important;
+}
+
+.btn-class{
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
+    
+    background-color: #85C1E9;
+    color: #fff;
+    font-weight: bold;
+}
+.form-codilan{
+    border-radius: 30px; 
+}
+.bloque{
+      display: none;
+}
+@media (min-width:411px){
+    .bloque{
+      display: block;
+    }
+}
+@media (min-width:360px){
+    .bloque{
+      display: block;
+    }
+}
+
+

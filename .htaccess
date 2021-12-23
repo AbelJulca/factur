@@ -1,0 +1,26 @@
+
+# BEGIN iThemes Security - No modifiques ni borres esta línea
+# iThemes Security Config Details: 2
+	# Pasar a través de la cabecera de autorización.
+	#<IfModule mod_rewrite.c>
+	#	RewriteEngine On
+	#	RewriteCond %{HTTP:Authorization} ^(.*)
+	#	RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+	#</IfModule>
+# END iThemes Security - No modifiques ni borres esta línea
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js)$">
+   	Header set Access-Control-Allow-Origin "http://localhost"
+	Header set Access-Control-Allow-Methods: "GET, PUT, POST, DELETE, HEAD, OPTIONS"
+  </FilesMatch>
+</IfModule>
+
+
